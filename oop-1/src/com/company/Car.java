@@ -1,9 +1,9 @@
 package com.company;
 
-public class Car {
-    String color; // 蓝、红
-    float engine; // 1.6 2.0
-    boolean started = false; // 已启动
+class Car {
+    private String color; // 蓝、红
+    private float engine; // 1.6 2.0
+    private boolean started = false; // 已启动
 
     Car() {
         color = "黑色";

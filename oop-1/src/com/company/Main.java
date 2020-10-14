@@ -38,15 +38,16 @@ public class Main {
         getLen(a);
         Car car = new Car();
         Car car1 = new Car("红色", 1.6f);
+//        car1.started = true;
         car1.speedUp(10);
         car1.start();
 
 //        Person zhangSan = new Person("zhangSan", 18, 100);
 //        zhangSan.sayHello();
 
-        Person liSi = new Person();
-        liSi.name = "liSi";
-        liSi.sayHello();
+//        Person liSi = new Person();
+//        liSi.name = "liSi";
+//        liSi.sayHello();
 
         car.convert(3456789);
 
