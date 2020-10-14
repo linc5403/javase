@@ -29,4 +29,12 @@ public class Car {
             System.out.println("车未启动");
         }
     }
+
+    void convert(long minute) {
+        long hours = minute / 60;
+        long days = hours / 24;
+        long years = days / 365;
+        days = days % 365;
+        System.out.println(years + "年 " + days + "天");
+    }
 }
