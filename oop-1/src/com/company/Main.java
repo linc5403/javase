@@ -42,8 +42,8 @@ public class Main {
         car1.speedUp(10);
         car1.start();
 
-//        Person zhangSan = new Person("zhangSan", 18, 100);
-//        zhangSan.sayHello();
+        Person zhangSan = new Person("zhangSan", 18, 100);
+        zhangSan.sayHello();
 
 //        Person liSi = new Person();
 //        liSi.name = "liSi";
