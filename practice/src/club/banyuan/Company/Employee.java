@@ -11,6 +11,16 @@ public class Employee {
         this.base = base;
     }
 
+    public Employee(String name) {
+        this.hours = 196;
+        this.base = 1000;
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     public int calcSalary() {
         int salary;
         if (hours <= 196) {
@@ -21,4 +31,12 @@ public class Employee {
         return salary;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", base=" + base +
+                ", hours=" + hours +
+                '}';
+    }
 }
