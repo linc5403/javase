@@ -1,7 +1,7 @@
-package club.banyuan.Interface.PackageAccess;
+package club.banyuan.Interface.b_packageAccess;
 
-import club.banyuan.Interface.Person;
-import club.banyuan.Interface.Student;
+import club.banyuan.Interface.a_common.Person;
+import club.banyuan.Interface.a_common.Student;
 
 public class Test {
     public static void main(String[] args) {

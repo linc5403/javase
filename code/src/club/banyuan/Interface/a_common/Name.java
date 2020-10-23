@@ -1,4 +1,4 @@
-package club.banyuan.Interface;
+package club.banyuan.Interface.a_common;
 
 public interface Name {
     // 如果是default方法， 则必须增加default关键字

@@ -1,4 +1,4 @@
-package club.banyuan.Interface;
+package club.banyuan.Interface.a_common;
 
 public class Student implements Name, Person{
     public String getName() {
