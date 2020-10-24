@@ -1,0 +1,11 @@
+* Java SE的示例代码
+
+** 目录结构
+
+   #+begin_example
+     .
+     ├── bak  --> 备份用
+     ├── code --> 知识点的示例
+     ├── lecture --> 课堂上使用的示例
+     └── README.md
+   #+end_example
