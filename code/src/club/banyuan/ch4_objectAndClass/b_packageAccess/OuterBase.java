@@ -1,6 +1,4 @@
-package club.banyuan.ch6_Interface.b_packageAccess;
-
-import java.util.ArrayList;
+package club.banyuan.ch4_objectAndClass.b_packageAccess;
 
 /**
  * protected方法的示例
@@ -33,7 +31,7 @@ import java.util.ArrayList;
  * </ol>
  *
  */
-public class Outer {
+public class OuterBase {
     // protected方法只能相同package或是其subclass使用
     protected void protectedMethod() {
         System.out.println(getClass().getName());
