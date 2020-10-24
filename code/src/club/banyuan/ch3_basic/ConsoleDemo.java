@@ -3,11 +3,20 @@ package club.banyuan.ch3_basic;
 import java.io.Console;
 
 /**
- * console的使用示例
- * 注意: 该用例只能在命令行下运行
- * 1. 通过System.console()获取当前可用的console
- * 2. readPassword()方法返回的是char[]
- * 3. 将char[]转变为String应该使用String.valueOf()方法
+ * console的使用示例<br>
+ * <strong>注意: 该用例只能在命令行下运行</strong><br>
+ *     <ol>
+ *         <li>
+ *         通过System.console()获取当前可用的console
+ *         </li>
+ *         <li>
+ *         readPassword()方法返回的是char[]
+ *         </li>
+ *         <li>
+ *         将char[]转变为String应该使用String.valueOf()方法
+ *         </li>
+ *     </ol>
+ *
  * @author linc
  * @version 0.1
  */

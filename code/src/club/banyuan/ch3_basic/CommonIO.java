@@ -11,13 +11,16 @@ import java.util.Scanner;
 
 /**
  * Scanner 和 PrintWriter 的示例
+ * <p>
  * 都需要将某个输入/输出和Scanner/PrintWriter关联起来, 再调用对象的方法来实现IO操作
+ * </p>
  * @author linc
  * @version 0.1
  */
 public class CommonIO {
     public static void main(String[] args) throws IOException {
-        // 1. 对于输入来说, 比输出麻烦些, 因为输入没有接受具体数据类型的方法, 因此我们需要使用一个Scanner对象来连接输入流并从中获取数据
+        // 1. 对于输入来说, 比输出要麻烦些, 因为输入没有处理具体数据类型的方法,
+        // 因此我们需要使用一个Scanner对象来连接输入流并从中获取数据
         // 以下示例是先创建一个scanner对象, 挂接在系统标准输入上
         Scanner scanner = new Scanner(System.in);
         // 在在其中获取一行标准输入, 放入到name这个变量中
@@ -45,7 +48,7 @@ public class CommonIO {
         printWriter.println();
         System.out.println(line);
 
-        // 注意如果line31构造PrintWriter对象时没有指定autoFlush参数为true, 则需要手动调用flush()方法, 否则终端上不会有输出
+        // 注意如果构造PrintWriter对象时没有指定autoFlush参数为true, 则需要手动调用flush()方法, 否则终端上不会有输出
         //printWriter.flush();
 
         // 4. 文件的使用
@@ -80,7 +83,7 @@ public class CommonIO {
             String inLine = thirdScanner.nextLine();
             printWriter.println(inLine);
         }
-//        因为构造printWriter时没有指定autoFlush, 所以此时需要调用flush()方法
+//        因为构造printWriter时没有指定autoFlush, 所以此时需要调用flush()方法, 否则内容有可能无法写入到文件中
         printWriter.flush();
 //        使用结束需要关闭printWriter, 虽然当前用例不关闭也不会有什么影响, 不过应该养成良好的习惯, 资源不使用时就将其释放
         printWriter.close();
