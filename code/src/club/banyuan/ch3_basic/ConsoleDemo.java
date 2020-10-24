@@ -2,6 +2,15 @@ package club.banyuan.ch3_basic;
 
 import java.io.Console;
 
+/**
+ * console的使用示例
+ * 注意: 该用例只能在命令行下运行
+ * 1. 通过System.console()获取当前可用的console
+ * 2. readPassword()方法返回的是char[]
+ * 3. 将char[]转变为String应该使用String.valueOf()方法
+ * @author linc
+ * @version 0.1
+ */
 public class ConsoleDemo {
     public static void main(String[] args) {
 //      注意: 这个实例只能在命令行下运行, 因为IDEA没法获取到系统的console
