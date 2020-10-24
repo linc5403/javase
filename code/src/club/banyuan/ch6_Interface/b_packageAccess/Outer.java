@@ -18,9 +18,20 @@ import java.util.ArrayList;
  * </ol>
  *
  * <p>
- * 不带访问限定符修饰的方法, 只能在当前package的其他类中通过创建该类的对象进行调用.
- * 其子类如果不是同一个包, 则也无法继承该方法
+ * 不带访问限定符修饰的方法(package private), 限定了其使用仅在当前package中.
  * </p>
+ * <ol>
+ *     <li>
+ * 当前package的其他类中通过创建该类的对象进行调用.
+ *     </li>
+ *     <li>
+ * 当前package中的子类可以继承该方法
+ *     </li>
+ *     <li>
+ * 其他package即不能引用该类的实例的这个方法, 也不能继承该方法
+ *     </li>
+ * </ol>
+ *
  */
 public class Outer {
     // protected方法只能相同package或是其subclass使用
