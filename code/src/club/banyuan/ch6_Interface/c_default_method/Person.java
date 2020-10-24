@@ -1,4 +1,4 @@
-package club.banyuan.Interface.a_common;
+package club.banyuan.ch6_Interface.c_default_method;
 
 public interface Person {
     // 接口里的成员只能是static public final, 即这个成员属于这个接口
