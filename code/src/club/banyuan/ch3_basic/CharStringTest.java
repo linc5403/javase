@@ -20,6 +20,7 @@ import java.nio.charset.StandardCharsets;
  *     String.length()方法获取的是String中的code unit, 即有多少个16bit的char; 对于某些超过1个char范围的char不能准确得到有多少个字符
  * </p>
  *
+ * @see <a href=https://developer.ibm.com/zh/languages/java/articles/j-lo-chinesecoding/>https://developer.ibm.com/zh/languages/java/articles/j-lo-chinesecoding/</a>
  */
 public class CharStringTest {
 
