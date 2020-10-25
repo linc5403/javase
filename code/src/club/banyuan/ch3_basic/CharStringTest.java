@@ -12,6 +12,7 @@ import java.nio.charset.StandardCharsets;
  * <p>
  *     String.getBytes(StandardCharsets.UTF_8) 可以用来获取UTF-8编码的byte数组
  * </p>
+ *
  * <p>
  *     String s = new String(byte[] bytes, StandardCharsets.UTF_8) 用来将UTF-8编码的数组保存进字符串
  * </p>
