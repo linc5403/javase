@@ -30,7 +30,7 @@ public class StringUtil {
         */
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int i = 0xabcd_ee12;
         System.out.println(intToHexString(i));
 
